@@ -7,6 +7,7 @@ Install:
 No need, just run python rdf2elasticsearch.py. Make sure to update your settings: what file to parse, what index name to use and what document type to use.
 
 Dependencies:
-Python
-RDFlib (easy_install rdflib, requires python-setuptools to be installed)
-python elasticsearch package (pip install elasticsearch)
+- ElasticSearch
+- Python
+- RDFlib (easy_install rdflib, requires python-setuptools to be installed)
+- python elasticsearch package (pip install elasticsearch)
